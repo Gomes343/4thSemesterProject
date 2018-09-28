@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="785.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.6666666666666666" prefHeight="526.0" prefWidth="794.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+        </items>
+      </SplitPane>
+      <TabPane layoutX="1.0" layoutY="84.0" prefHeight="442.0" prefWidth="525.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+            <Tab text="Minhas mudas">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+          <Tab text="Sobre">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="411.0" prefWidth="595.0">
+                     <padding>
+                        <Insets right="15.0" />
+                     </padding>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Ambiente">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+            <Tab text="Cuidados">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab text="Curiosidade">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Pane layoutX="537.0" prefHeight="526.0" prefWidth="246.0">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="224.0" layoutX="25.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true" style="-fx-background-radius: 50;">
+               <image>
+                  <Image url="@../../../../../Downloads/oie_oie_trim_image.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="65.0" layoutY="65.0" prefHeight="18.0" prefWidth="71.0" text="Café">
+               <font>
+                  <Font name="Comic Sans MS" size="25.0" />
+               </font>
+            </Label>
+            <Button layoutX="14.0" layoutY="324.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="217.0" text="Gerar relatório diário">
+               <font>
+                  <Font name="Comic Sans MS" size="17.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
