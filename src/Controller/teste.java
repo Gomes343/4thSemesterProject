@@ -5,9 +5,9 @@
  */
 package Controller;
 
-import Classes.Clima;
-import Classes.Planta;
-import Classes.Usuario;
+import Model.Clima;
+import Model.Planta;
+import Model.Usuario;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
